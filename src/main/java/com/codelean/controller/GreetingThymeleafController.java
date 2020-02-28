@@ -7,22 +7,22 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class GreetingThymeleafController {
 
     @GetMapping("/greeting")
-    public String listStudent(){
+    public String listStudent() {
         return "greeting";
     }
 
     @GetMapping("/create")
-    public String create(){
+    public String create() {
         return "create";
     }
 
     @GetMapping("/viewdetail")
-    public String viewdetail(){
+    public String viewdetail() {
         return "viewdetail";
     }
 
     @GetMapping("/update")
-    public String update(){
+    public String update() {
         return "edit";
     }
 }
