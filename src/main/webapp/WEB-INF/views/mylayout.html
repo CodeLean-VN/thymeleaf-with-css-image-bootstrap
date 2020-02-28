@@ -7,13 +7,9 @@
 </head>
 <body>
 <footer th:fragment="footer">
-    <img src="../static/img/logo.png"/>
     &copy; 2020 CodeLean
-
-
-    <img src="../img/logo.png" height="25" width="25"/>
-
-    <img src="../../../resources/static.img/logo.png"/>
+    <img th:src="@{/img/logo.png}" height="25" width="25"/>
+    <img src="/img/logo.png" height="25" width="25"/>
 </footer>
 </body>
 </html>
